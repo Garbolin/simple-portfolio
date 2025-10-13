@@ -1,0 +1,28 @@
+.error-email {
+    color: var(--error-email);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.send-email-alert {
+    color: var(--white);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.error-bg-color {
+    background-color: var(--error-email);
+}
+
+.success-bg-color {
+    background-color: var(--success-email);
+}
