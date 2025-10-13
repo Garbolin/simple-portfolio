@@ -1,9 +1,31 @@
+.nav-container-github-linkedin {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    z-index: -10;
+
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Solo aquí */
+    top: 35px;
+    left: 40px;
+}
+
 #menuToggle {
     display: block;
     position: fixed;
     top: 50px;
     left: 50px;
-    z-index: 1;
+    z-index: 10;
     -webkit-user-select: none;
     user-select: none;
 }
@@ -21,6 +43,7 @@
     background-color: var(--primary-color);
     border-radius: 5px;
     justify-content: center;
+    transition:cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
 }
 
 
@@ -98,10 +121,10 @@
     max-width: 400px;
     height: 100vh;
     margin: -100px 0 0 -50px;
+    box-sizing: content-box;
+    overflow-y: auto;
     padding: 50px;
     padding-top: 125px;
-    box-sizing: border-box;
-    overflow-y: auto;
     background: var(--secondary-color);
     border-radius: 5px;
     overflow-x: hidden;
@@ -114,6 +137,11 @@
     
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
+
+/* .menu-content {
+    padding: 50px;
+    padding-top: 125px;
+} */
 
 #menu li
 {
@@ -205,3 +233,4 @@
 .green {
     background-color: var(--success-email);
 }
+

@@ -34,7 +34,7 @@
 
 
 /* SAND LIGHTMODE */
-.lightmode{
+/* .lightmode{
     --primary-color:#FFF6E8; 
     --secondary-color: #EBDDC7; 
     --btn-color: #835b04; 
@@ -49,4 +49,25 @@
     --black: #000000;
     --btn-hover: #996106;
     --error-email: #c90000;
-}
+} */
+
+/* GREEN LIGHTMODE .greenLightmode*/
+
+/* BLUE LIGHTMODE .greenLightmode*/
+/* :root {
+    --primary-color:#e9e9e9; 
+    --secondary-color: #e9e9e9; 
+    --nav-bg-color: #2167ff; 
+    --btn-color: #2167ff; 
+    --headers-text-color: #2167ff; 
+    --text-color: #0f0f0f;  
+    --btn-text-color: #ffffff; 
+    --shadow: rgba(37, 80, 136, 0.25);
+    --linkedin-color: #2965F1;
+    --github-color: #000000;
+    --unity-color: #000000;
+    --white: #ffffff;
+    --black: #000000;
+    --btn-hover: #4bbdff;
+    --error-email: #c90000;
+} */
