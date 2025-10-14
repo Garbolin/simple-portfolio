@@ -116,7 +116,7 @@
 }
 
 #menu {
-    position: absolute;
+    position: relative;
     width: 80vw;
     max-width: 400px;
     height: 100vh;

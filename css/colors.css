@@ -1,7 +1,8 @@
 :root {
     --primary-color:#3D3A5A; /*Base color for dark-theme. #F3F2FF for light-theme*/
     --secondary-color: #322F49; /*Section base color for dark-theme. #DEDBF4 for light-theme*/
-    --btn-color: #DEDBF4; /*Button color for dark-theme. #3D3A5A for light-theme*/
+    /* --btn-color: #DEDBF4; Button color for dark-theme. #3D3A5A for light-theme */
+    --btn-color: #daa2ff; /*Button color for dark-theme. #3D3A5A for light-theme*/
     --headers-text-color: #ffffff; /*Headers text color for dark-theme. #000000 for light-theme*/
     --text-color: #DEDBF4; /*Text color for dark-theme. #3D3A5A for light-theme*/
     --btn-text-color: #3D3A5A; /*Button text color for dark-theme. #ffffff for light-theme*/
