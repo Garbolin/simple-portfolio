@@ -288,7 +288,7 @@ html {
     justify-content: center;
     width: 100%;
     max-width: 900px;
-    gap: 70px;
+    gap: 30px;
 }
 
 .section {
@@ -304,12 +304,12 @@ html {
     width: 90%;
 }
 
-/*---------ABOUT----------------*/
 .section-title {
     color: var(--text-color);
     font-size: 2rem;
-    padding: 30px;
 }
+
+/*---------ABOUT----------------*/
 
 
 .section-content {
@@ -319,7 +319,11 @@ html {
     justify-content: center;
     width: 90%;
     gap: 30px;
-    padding: 20px 0;
+    padding-top: 20px;
+}
+
+#about .section-title {
+    padding-bottom: 20px;
 }
 
 .about {
@@ -638,6 +642,10 @@ li {
 
 .contact-cv {
     padding: 5px 20px;
+}
+
+#contact .section-title {
+    padding-bottom: 20px;
 }
 
 .contact-form {
