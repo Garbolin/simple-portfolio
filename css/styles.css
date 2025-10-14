@@ -8,6 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, ul, p {
@@ -27,6 +28,7 @@ a {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
     
 }
 
