@@ -304,6 +304,7 @@ html {
     align-items: left;
     justify-content: center;
     width: 90%;
+    scroll-margin-top: 20px;
 }
 
 .section-title {
