@@ -16,6 +16,17 @@ function translatePage(langData) {
         if (text[k]) text = text[k];
         else return;
         }
-        element.textContent = text;
-    });
-}
+        
+        if (element.tagName === "INPUT") {
+            if (element.type === "submit") {
+                element.value = text;  
+            } else {
+                element.placeholder = text;
+            }
+        } else if (element.tagName === "TEXTAREA") {
+            element.placeholder = text;
+        } else {
+            
+            element.textContent = text;
+        }
+})}

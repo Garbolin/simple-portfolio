@@ -96,10 +96,11 @@
     pointer-events: auto;
 }
 
-#menu li {
+#menu .nav-item {
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .nav-item-mobile {
@@ -112,9 +113,10 @@
     box-sizing: border-box;
 }
 
-#menu li:hover {
+#menu .nav-item:hover {
     background-color: var(--primary-color);
     border-radius: 5px;
+    
     /* transition:cubic-bezier(0.19, 1, 0.22, 1) 0.3s; */
 }
 
@@ -137,6 +139,7 @@
     font-weight: 600;
     padding: 10px;
     color: rgba(var(--white-50), 0.7);
+    text-transform: uppercase;
 }
 
 .language-svg {

@@ -18,7 +18,7 @@ menuContainer.addEventListener("click", menuEvents);
 
 
 function menuEvents(e) {
-    if(e.target.classList.contains("nav-item-mobile") || e.target.closest(".language-container") || e.target.classList.contains("theme-button")) {
+    if(e.target.closest(".nav-item-mobile") || e.target.closest(".language-container") || e.target.classList.contains("theme-button")) {
         navBarMobile.classList.remove("clicked");
         menuContainer.classList.remove("show-navBar");
         menuContainer.classList.add("menu-mobile");

@@ -4,27 +4,29 @@
         "experience": "Experiencia",
         "projects": "Proyectos",
         "tech": "Tech stack",
-        "contact": "Contactame"
+        "contact": "Contactame",
+        "language": "Idioma",
+        "theme": "Tema"
     },
     "textBtn": {
         "downloadCV": "Descarga CV",
         "contact": "Contactame",
-        "submit": "Enviar"
+        "submit": "Enviar",
+        "seeProject": "Ver proyecto!"
     },
     "about": {
         "title": "Sobre mí",
         "text": [
-            "Fusiono creatividad y tecnología para crear experiencias intuitivas y visualmente atractivas. Atención al detalle y perfeccionismo.",
-            "Terminando la carrera de Psicología, descubrí en la tecnología una nueva forma de entender y transformar el mundo. Me cautivó su potencial para la creación y la innovación, convirtiéndose en mi motor para aprender, explorar y afrontar nuevos desafíos con entusiasmo.",
-            "Fuera del código, disfruto de activiades que nutren mi creatividad y dan un equilibrio a mi interés por la tecnología."
+            "Me apasiona unir tecnología y creatividad para transformar ideas en experiencias digitales con propósito. Con un background en Pisocología, me mueve la curiosidad y la búsqueda constante de formas nuevas de conectar con las personas a través del diseño y la interacción.",
+            "Soy optimista, adaptable y disfruto colaborar en equipo para dar forma a proyectos donde estética, funcionalidad y usabilidad se encuentren en equilibrio. Considero que los detalles definen la calidad de una experiencia digital, convirtiendo lo funcional en algo intuitivo y agradable de usar."
         ]
     },
     "experience": {
         "title": "Experiencia",
         "section": [
             {
-                "date": "Noviembre 2024 - Abril 2025",
-                "jobTitle": "BrainGaze - Software developer intern",
+                "date": "2024 - 2025",
+                "jobTitle": "BrainGaze - Prácticas de Software developer",
                 "text": [
                     "Desarrollo de una aplicación móvil con un videojuego usando Unity y C#.",
                     "Diseño UX/UI y creación de assets e interfaces.",
@@ -32,11 +34,11 @@
                 ]
             },
             {
-                "date": "N2024 - actual",
-                "jobTitle": "Sitio web Pérez-Molina Piano Dúo",
+                "date": "2024 - 2025",
+                "jobTitle": "Sitio web Pérez-Molina",
                 "text": [
                     "Sitio web corporativo para una pareja de pianistas, diseñado para mostrar su trayectoria musical.",
-                    "Se está desarrollando con Vite, React, TypeScript y CSS, integrando un gestor de contenidos basado en Strapi y una API con Node.js. El proyecto sigue la metodología Agile y se gestiona mediante Git."
+                    "Desarrollado con Vite, React, TypeScript y CSS, integrando un gestor de contenidos basado en Strapi y una API con Node.js. El proyecto se gestionó siguiendo la metodología Agile y mediante Git."
                 ]
             }
         ]
@@ -45,7 +47,7 @@
         "title": "Proyectos",
         "section":[
             {
-                "projectTitle": "Budget App",
+                "projectTitle": "Gestor de presupuestos",
                 "text":[
                     "Aplicación de gestión financiera desarrollada con React y React Router.",
                     "Funcionalidades: Inicio de sesión, creación de presupuestos, envío de datos, formulario para la gestión de gastos, tablas y página de gastos, visualización de presupuestos en tarjetas, enlaces a presupuestos, eliminación de usuarios y notificaciones emergentes (toast messages)."
@@ -59,7 +61,7 @@
                 ]
             },
             {
-                "projectTitle": "Task Timer",
+                "projectTitle": "Gestor de tiempo de tareas",
                 "text":[
                     "Gestión y temporización de tareas, utilizando JavaScript, CSS y HTML.",
                     "Funcionalidades: Creación de tareas con tiempo asignado, cálculo del tiempo total trabajado y del tiempo a trabajar de tareas creadas, opción de pausar, eliminar, marcar tareas como completadas, cambio de estado al finalizar tarea y diseño visual propio."

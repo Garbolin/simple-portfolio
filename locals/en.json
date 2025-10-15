@@ -4,39 +4,40 @@
         "experience": "Experience",
         "projects": "Projects",
         "tech": "Tech stack",
-        "contact": "Contact me"
+        "contact": "Contact me",
+        "language": "Language",
+        "theme": "Theme"
     },
     "textBtn": {
-        "downloadCV": "download CV",
+        "downloadCV": "Download CV",
         "contact": "Contact me",
-        "submit": "Submit"
+        "submit": "Submit",
+        "seeProject": "See project!"
     },
     "about": {
         "title": "About",
         "text": [
-            "Fusiono creatividad y tecnología para crear experiencias intuitivas y visualmente atractivas. Atención al detalle y perfeccionismo.",
-            "Terminando la carrera de Psicología, descubrí en la tecnología una nueva forma de entender y transformar el mundo. Me cautivó su potencial para la creación y la innovación, convirtiéndose en mi motor para aprender, explorar y afrontar nuevos desafíos con entusiasmo.",
-            "Fuera del código, disfruto de activiades que nutren mi creatividad y dan un equilibrio a mi interés por la tecnología."
-        ]
+            "I am passionate about combining technology and creativity to transform ideas into purposeful digital experiences. With a background in Psychology, I am driven by curiosity and a constant quest to find new ways to connect with people through design and interaction.",
+            "I am optimistic, adaptable, and enjoy collaborating in teams to shape projects where aesthetics, functionality, and usability are in balance. I believe that attention to detail defines the quality of a digital experience, turning functional solutions into something intuitive and enjoyable to use."        ]
     },
     "experience": {
         "title": "Experience",
         "section": [
             {
-                "date": "November 2024 - April 2025",
-                "jobTitle": "BrainGaze - Software developer intern",
+                "date": "2024 - 2025",
+                "jobTitle": "BrainGaze - Software developer Intern",
                 "text": [
-                    "Desarrollo de una aplicación móvil con un videojuego usando Unity y C#.",
-                    "Diseño UX/UI y creación de assets e interfaces.",
-                    "Depuración y testeo del juego, identificación y corrección de errores, ajuste de mecánicas y optimización para una experiencia fluida."
+                    "Developed a mobile application featuring a video game using Unity and C#.",
+                    "Designed UX/UI and created assets and interfaces.",
+                    "Debugged and tested the game, identified and fixed bugs, adjusted mechanics, and optimized for a smooth user experience."
                 ]
             },
             {
-                "date": "2024 - actual",
-                "jobTitle": "Pérez-Molina Piano Dúo Website",
+                "date": "2024 - 2025",
+                "jobTitle": "Pérez-Molina Website",
                 "text": [
-                    "Sitio web corporativo para una pareja de pianistas, diseñado para mostrar su trayectoria musical.",
-                    "Se está desarrollando con Vite, React, TypeScript y CSS, integrando un gestor de contenidos basado en Strapi y una API con Node.js. El proyecto sigue la metodología Agile y se gestiona mediante Git."
+                    "Corporate website for a pair of pianists, designed to showcase their musical career.",
+                    "Developed using Vite, React, TypeScript, and CSS, integrating a content management system based on Strapi and a Node.js API. The project was managed following Agile methodology and versioned with Git."
                 ]
             }
         ]
@@ -47,22 +48,22 @@
             {
                 "projectTitle": "Budget App",
                 "text":[
-                    "Aplicación de gestión financiera desarrollada con React y React Router.",
-                    "Funcionalidades: Inicio de sesión, creación de presupuestos, envío de datos, formulario para la gestión de gastos, tablas y página de gastos, visualización de presupuestos en tarjetas, enlaces a presupuestos, eliminación de usuarios y notificaciones emergentes (toast messages)."
+                    "Financial management application developed with React and React Router.",
+                    "Features: User login, budget creation, data submission, expense management form, tables and expenses page, budget visualization in cards, links to budgets, user deletion, and toast notifications."
                 ]
             },
             {
                 "projectTitle": "Arkanoid",
                 "text":[
-                    "Juego retro desarrollado utilizando CSS, HTML y JavaScript.",
-                    "Funcionalidades: Múltiples niveles, sistema de vidas, sistema de puntuación, funcionalidad de pausa, pantalla de Game Over y de victoria, efectos de sonido y diseño visual propio."
+                    "Retro game developed using CSS, HTML, and JavaScript.",
+                    "Features: Multiple levels, lives system, scoring system, pause functionality, Game Over and victory screens, sound effects, and custom visual design."
                 ]
             },
             {
                 "projectTitle": "Task Timer",
                 "text":[
-                    "Gestión y temporización de tareas, utilizando JavaScript, CSS y HTML.",
-                    "Funcionalidades: Creación de tareas con tiempo asignado, cálculo del tiempo total trabajado y del tiempo a trabajar de tareas creadas, opción de pausar, eliminar, marcar tareas como completadas, cambio de estado al finalizar tarea y diseño visual propio."
+                    "Task management and timing application, developed using JavaScript, CSS, and HTML.",
+                    "Features: Create tasks with assigned time, calculate total time worked and remaining time for tasks, pause option, delete tasks, mark tasks as completed, automatic status change when a task is finished, and custom visual design."
                 ]
             }
         ]
