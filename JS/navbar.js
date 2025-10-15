@@ -28,22 +28,22 @@ function menuEvents(e) {
             loadLanguage('es');
             spanish.classList.add("language-selected", "language-container-selected");
             spanish.classList.remove("language-container");
-            spanishSVG.setAttribute("fill", "var(--secondary-color)");
+            spanishSVG.setAttribute("fill", "var(--language-selected-svg-color)");
 
             english.classList.remove("language-selected", "language-container-selected");
             english.classList.add("language-container");
-            englishSVG.setAttribute("fill", "var(--white)");
+            englishSVG.setAttribute("fill", "var(--language-text)");
             return;
             //cargar y seleccionar english
         } else if(e.target.closest("#english")) {
             loadLanguage('en')
             english.classList.add("language-selected", "language-container-selected");
             english.classList.remove("language-container");
-            englishSVG.setAttribute("fill", "var(--secondary-color)");
+            englishSVG.setAttribute("fill", "var(--language-selected-svg-color)");
 
             spanish.classList.remove("language-selected", "language-container-selected");
             spanish.classList.add("language-container");
-            spanishSVG.setAttribute("fill", "var(--white)");
+            spanishSVG.setAttribute("fill", "var(--language-text)");
             return;
 
         } else if (e.target.classList.contains("theme-button")){
@@ -56,6 +56,7 @@ function menuEvents(e) {
                 sibling = sibling.nextElementSibling;
             }
             
+            document.body.classList.forEach(cls => document.body.classList.remove(cls))
             const themeNewSelected = e.target;
             themeNewSelected.classList.add("theme-button-selected");
 
@@ -86,24 +87,25 @@ function themeSelected(theme, themeNewSelected){
 
     switch(theme) {
         case "dark":
-            console.log(themeNewSelected);
+            document.body.classList.add('darkmode');
             break;
         case "light":
-            console.log(themeNewSelected);
+            document.body.classList.add('lightmode');
             break;
         case "blue": 
-            console.log(themeNewSelected);
+            document.body.classList.add('blue-night');
             break;
-        case "neon":
-            console.log(themeNewSelected);
+        case "sky":
+            document.body.classList.add('sky');
             break;
-        case "pink":
-            console.log(themeNewSelected);
+        case "orange":
+            document.body.classList.add('orangemode');
             break;
         case "green":
-            console.log(themeNewSelected);
+            document.body.classList.add('hibiscus');
             break;
         default:
+            document.body.classList.add('darkmode');
             break;
     }
 }
