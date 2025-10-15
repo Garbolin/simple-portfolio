@@ -10,7 +10,7 @@
     border-radius: 50%;
     background-color: var(--secondary-color);
     position:fixed;
-    right: 50px;
+    left: 50px;
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -236,6 +236,10 @@
 }
 
 @media ((max-width: 600px)){
+    .test-navbar {
+        left: auto;
+        right: 50px;
+    }
     .menu-container {
         width: 100vw;
         max-width: 100%;
