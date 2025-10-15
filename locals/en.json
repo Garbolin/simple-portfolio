@@ -9,6 +9,11 @@
         "language": "Language",
         "theme": "Theme"
     },
+    "link": {
+        "linkedin": "https://www.linkedin.com/in/gabrielabuil",
+        "github": "https://github.com/Garbolin",
+        "cv": "CV/GabrielaBuilClancyEn.pdf"
+    },
     "textBtn": {
         "downloadCV": "Download CV",
         "contact": "Contact me",
@@ -39,7 +44,8 @@
                 "text": [
                     "Corporate website for a pair of pianists, designed to showcase their musical career.",
                     "Developed using Vite, React, TypeScript, and CSS, integrating a content management system based on Strapi and a Node.js API. The project was managed following Agile methodology and versioned with Git."
-                ]
+                ],
+                "link": "https://perezmolina.cat/"
             }
         ]
     },
@@ -51,21 +57,27 @@
                 "text":[
                     "Financial management application developed with React and React Router.",
                     "Features: User login, budget creation, data submission, expense management form, tables and expenses page, budget visualization in cards, links to budgets, user deletion, and toast notifications."
-                ]
+                ],
+                "link" : "https://budget-app-2025.netlify.app/",
+                "github" : "https://github.com/Garbolin/Budget-App"
             },
             {
                 "projectTitle": "Arkanoid",
                 "text":[
                     "Retro game developed using CSS, HTML, and JavaScript.",
                     "Features: Multiple levels, lives system, scoring system, pause functionality, Game Over and victory screens, sound effects, and custom visual design."
-                ]
+                ],
+                "link" : "https://arkanoid-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Arkanoid"
             },
             {
                 "projectTitle": "Task Timer",
                 "text":[
                     "Task management and timing application, developed using JavaScript, CSS, and HTML.",
                     "Features: Create tasks with assigned time, calculate total time worked and remaining time for tasks, pause option, delete tasks, mark tasks as completed, automatic status change when a task is finished, and custom visual design."
-                ]
+                ],
+                "link" : "https://task-timer-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Task-Timer?tab=readme-ov-file"
             }
         ]
     },

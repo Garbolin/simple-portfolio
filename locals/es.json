@@ -9,6 +9,11 @@
         "language": "Idioma",
         "theme": "Tema"
     },
+    "link": {
+        "linkedin": "https://www.linkedin.com/in/gabrielabuil/",
+        "github": "https://github.com/Garbolin",
+        "cv": "CV/GabrielaBuilClancyEs.pdf"
+    },
     "textBtn": {
         "downloadCV": "Descarga CV",
         "contact": "Contactame",
@@ -40,7 +45,8 @@
                 "text": [
                     "Sitio web corporativo para una pareja de pianistas, diseñado para mostrar su trayectoria musical.",
                     "Desarrollado con Vite, React, TypeScript y CSS, integrando un gestor de contenidos basado en Strapi y una API con Node.js. El proyecto se gestionó siguiendo la metodología Agile y mediante Git."
-                ]
+                ],
+                "link": "https://perezmolina.cat/"
             }
         ]
     },
@@ -52,21 +58,27 @@
                 "text":[
                     "Aplicación de gestión financiera desarrollada con React y React Router.",
                     "Funcionalidades: Inicio de sesión, creación de presupuestos, envío de datos, formulario para la gestión de gastos, tablas y página de gastos, visualización de presupuestos en tarjetas, enlaces a presupuestos, eliminación de usuarios y notificaciones emergentes (toast messages)."
-                ]
+                ],
+                "link" : "https://budget-app-2025.netlify.app/",
+                "github" : "https://github.com/Garbolin/Budget-App"
             },
             {
                 "projectTitle": "Arkanoid",
                 "text":[
                     "Juego retro desarrollado utilizando CSS, HTML y JavaScript.",
                     "Funcionalidades: Múltiples niveles, sistema de vidas, sistema de puntuación, funcionalidad de pausa, pantalla de Game Over y de victoria, efectos de sonido y diseño visual propio."
-                ]
+                ],
+                "link" : "https://arkanoid-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Arkanoid"
             },
             {
                 "projectTitle": "Gestor de tiempo de tareas",
                 "text":[
                     "Gestión y temporización de tareas, utilizando JavaScript, CSS y HTML.",
                     "Funcionalidades: Creación de tareas con tiempo asignado, cálculo del tiempo total trabajado y del tiempo a trabajar de tareas creadas, opción de pausar, eliminar, marcar tareas como completadas, cambio de estado al finalizar tarea y diseño visual propio."
-                ]
+                ],
+                "link" : "https://task-timer-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Task-Timer?tab=readme-ov-file"
             }
         ]
     },

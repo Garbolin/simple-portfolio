@@ -29,4 +29,17 @@ function translatePage(langData) {
             
             element.textContent = text;
         }
-})}
+    },
+
+    document.querySelectorAll("[data-href-key]").forEach(element => {
+        const key = element.getAttribute("data-href-key").split(".");
+
+        let text = langData;
+        for (const k of key) {
+        if (text[k]) text = text[k];
+        else return;
+        }
+
+            element.href = text;
+    })
+)}
