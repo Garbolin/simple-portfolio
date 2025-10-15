@@ -18,12 +18,14 @@ menuContainer.addEventListener("click", menuEvents);
 
 
 function menuEvents(e) {
-    if(e.target.classList.contains("nav-item-mobile") || e.target.closest(".language-container") || e.target.classList.contains("theme-button")) {
+    if(e.target.closest(".nav-item-mobile") || e.target.closest(".language-container") || e.target.classList.contains("theme-button")) {
         navBarMobile.classList.remove("clicked");
         menuContainer.classList.remove("show-navBar");
         menuContainer.classList.add("menu-mobile");
         isOpen = false;
-        if(e.target.closest("#spanish") && e.target.closest(".language-container")) {
+        //cargar y seleccionar español
+        if(e.target.closest("#spanish")) {
+            loadLanguage('es');
             spanish.classList.add("language-selected", "language-container-selected");
             spanish.classList.remove("language-container");
             spanishSVG.setAttribute("fill", "var(--secondary-color)");
@@ -32,8 +34,9 @@ function menuEvents(e) {
             english.classList.add("language-container");
             englishSVG.setAttribute("fill", "var(--white)");
             return;
-        } else if(e.target.closest("#english") && e.target.closest(".language-container")) {
-            
+            //cargar y seleccionar english
+        } else if(e.target.closest("#english")) {
+            loadLanguage('en')
             english.classList.add("language-selected", "language-container-selected");
             english.classList.remove("language-container");
             englishSVG.setAttribute("fill", "var(--secondary-color)");

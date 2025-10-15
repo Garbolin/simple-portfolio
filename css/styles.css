@@ -33,6 +33,9 @@ html {
 }
 
 /*---NAVBAR---*/
+#home {
+    scroll-margin: auto;
+}
 .nav-content-container{
     width: 90%;
     height: 100px;

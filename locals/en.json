@@ -1,0 +1,91 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "tech": "Tech stack",
+        "contact": "Contact me",
+        "language": "Language",
+        "theme": "Theme"
+    },
+    "link": {
+        "linkedin": "https://www.linkedin.com/in/gabrielabuil",
+        "github": "https://github.com/Garbolin",
+        "cv": "CV/GabrielaBuilClancyEn.pdf"
+    },
+    "textBtn": {
+        "downloadCV": "Download CV",
+        "contact": "Contact me",
+        "submit": "Submit",
+        "seeProject": "See project!"
+    },
+    "about": {
+        "title": "About",
+        "text": [
+            "I am passionate about combining technology and creativity to transform ideas into purposeful digital experiences. With a background in Psychology, I am driven by curiosity and a constant quest to find new ways to connect with people through design and interaction.",
+            "I am optimistic, adaptable, and enjoy collaborating in teams to shape projects where aesthetics, functionality, and usability are in balance. I believe that attention to detail defines the quality of a digital experience, turning functional solutions into something intuitive and enjoyable to use."        ]
+    },
+    "experience": {
+        "title": "Experience",
+        "section": [
+            {
+                "date": "2024 - 2025",
+                "jobTitle": "BrainGaze - Software developer Intern",
+                "text": [
+                    "Developed a mobile application featuring a video game using Unity and C#.",
+                    "Designed UX/UI and created assets and interfaces.",
+                    "Debugged and tested the game, identified and fixed bugs, adjusted mechanics, and optimized for a smooth user experience."
+                ]
+            },
+            {
+                "date": "2024 - 2025",
+                "jobTitle": "Pérez-Molina Website",
+                "text": [
+                    "Corporate website for a pair of pianists, designed to showcase their musical career.",
+                    "Developed using Vite, React, TypeScript, and CSS, integrating a content management system based on Strapi and a Node.js API. The project was managed following Agile methodology and versioned with Git."
+                ],
+                "link": "https://perezmolina.cat/"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "section":[
+            {
+                "projectTitle": "Budget App",
+                "text":[
+                    "Financial management application developed with React and React Router.",
+                    "Features: User login, budget creation, data submission, expense management form, tables and expenses page, budget visualization in cards, links to budgets, user deletion, and toast notifications."
+                ],
+                "link" : "https://budget-app-2025.netlify.app/",
+                "github" : "https://github.com/Garbolin/Budget-App"
+            },
+            {
+                "projectTitle": "Arkanoid",
+                "text":[
+                    "Retro game developed using CSS, HTML, and JavaScript.",
+                    "Features: Multiple levels, lives system, scoring system, pause functionality, Game Over and victory screens, sound effects, and custom visual design."
+                ],
+                "link" : "https://arkanoid-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Arkanoid"
+            },
+            {
+                "projectTitle": "Task Timer",
+                "text":[
+                    "Task management and timing application, developed using JavaScript, CSS, and HTML.",
+                    "Features: Create tasks with assigned time, calculate total time worked and remaining time for tasks, pause option, delete tasks, mark tasks as completed, automatic status change when a task is finished, and custom visual design."
+                ],
+                "link" : "https://task-timer-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Task-Timer?tab=readme-ov-file"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact me",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+    }
+}

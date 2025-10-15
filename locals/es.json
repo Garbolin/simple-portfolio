@@ -1,0 +1,92 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "tech": "Tech stack",
+        "contact": "Contactame",
+        "language": "Idioma",
+        "theme": "Tema"
+    },
+    "link": {
+        "linkedin": "https://www.linkedin.com/in/gabrielabuil/",
+        "github": "https://github.com/Garbolin",
+        "cv": "CV/GabrielaBuilClancyEs.pdf"
+    },
+    "textBtn": {
+        "downloadCV": "Descarga CV",
+        "contact": "Contactame",
+        "submit": "Enviar",
+        "seeProject": "Ver proyecto!"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "text": [
+            "Me apasiona unir tecnología y creatividad para transformar ideas en experiencias digitales con propósito. Con un background en Pisocología, me mueve la curiosidad y la búsqueda constante de formas nuevas de conectar con las personas a través del diseño y la interacción.",
+            "Soy optimista, adaptable y disfruto colaborar en equipo para dar forma a proyectos donde estética, funcionalidad y usabilidad se encuentren en equilibrio. Considero que los detalles definen la calidad de una experiencia digital, convirtiendo lo funcional en algo intuitivo y agradable de usar."
+        ]
+    },
+    "experience": {
+        "title": "Experiencia",
+        "section": [
+            {
+                "date": "2024 - 2025",
+                "jobTitle": "BrainGaze - Prácticas de Software developer",
+                "text": [
+                    "Desarrollo de una aplicación móvil con un videojuego usando Unity y C#.",
+                    "Diseño UX/UI y creación de assets e interfaces.",
+                    "Depuración y testeo del juego, identificación y corrección de errores, ajuste de mecánicas y optimización para una experiencia fluida."
+                ]
+            },
+            {
+                "date": "2024 - 2025",
+                "jobTitle": "Sitio web Pérez-Molina",
+                "text": [
+                    "Sitio web corporativo para una pareja de pianistas, diseñado para mostrar su trayectoria musical.",
+                    "Desarrollado con Vite, React, TypeScript y CSS, integrando un gestor de contenidos basado en Strapi y una API con Node.js. El proyecto se gestionó siguiendo la metodología Agile y mediante Git."
+                ],
+                "link": "https://perezmolina.cat/"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Proyectos",
+        "section":[
+            {
+                "projectTitle": "Gestor de presupuestos",
+                "text":[
+                    "Aplicación de gestión financiera desarrollada con React y React Router.",
+                    "Funcionalidades: Inicio de sesión, creación de presupuestos, envío de datos, formulario para la gestión de gastos, tablas y página de gastos, visualización de presupuestos en tarjetas, enlaces a presupuestos, eliminación de usuarios y notificaciones emergentes (toast messages)."
+                ],
+                "link" : "https://budget-app-2025.netlify.app/",
+                "github" : "https://github.com/Garbolin/Budget-App"
+            },
+            {
+                "projectTitle": "Arkanoid",
+                "text":[
+                    "Juego retro desarrollado utilizando CSS, HTML y JavaScript.",
+                    "Funcionalidades: Múltiples niveles, sistema de vidas, sistema de puntuación, funcionalidad de pausa, pantalla de Game Over y de victoria, efectos de sonido y diseño visual propio."
+                ],
+                "link" : "https://arkanoid-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Arkanoid"
+            },
+            {
+                "projectTitle": "Gestor de tiempo de tareas",
+                "text":[
+                    "Gestión y temporización de tareas, utilizando JavaScript, CSS y HTML.",
+                    "Funcionalidades: Creación de tareas con tiempo asignado, cálculo del tiempo total trabajado y del tiempo a trabajar de tareas creadas, opción de pausar, eliminar, marcar tareas como completadas, cambio de estado al finalizar tarea y diseño visual propio."
+                ],
+                "link" : "https://task-timer-gb.netlify.app/",
+                "github" : "https://github.com/Garbolin/Task-Timer?tab=readme-ov-file"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contactame",
+        "name": "Nombre",
+        "email": "Email",
+        "subject": "Asunto",
+        "message": "Mensaje"
+    }
+}
