@@ -95,14 +95,14 @@ function themeSelected(theme, themeNewSelected){
         case "blue": 
             document.body.classList.add('blue-night');
             break;
-        case "neon":
-            document.body.classList.add('hibiscus');
+        case "sky":
+            document.body.classList.add('sky');
             break;
-        case "pink":
-            document.body.classList.add('pinkmode');
+        case "orange":
+            document.body.classList.add('orangemode');
             break;
         case "green":
-            document.body.classList.add('orangemode');
+            document.body.classList.add('hibiscus');
             break;
         default:
             document.body.classList.add('darkmode');

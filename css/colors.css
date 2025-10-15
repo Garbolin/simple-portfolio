@@ -116,7 +116,7 @@
 }
 
 
-.bluemode {
+.sky {
 /* fondos */
     --primary-color: #B3E5FC;       /* azul cielo claro */
     --secondary-color: #bfebff;     /* azul muy suave secundario */
@@ -265,6 +265,7 @@
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 
+/*YES*/
 .hibiscus {
 /* fondos */
     --primary-color: #ddf0da;        /* fondo verde muy claro, casi blanco */
@@ -317,6 +318,7 @@
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 
+/*YES*/
 .blue-night {
     /* fondos */
     --primary-color: #0D1B2A;        /* azul muy oscuro, fondo principal */

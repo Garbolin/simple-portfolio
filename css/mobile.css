@@ -223,19 +223,19 @@
 }
 
 .blue {
-    background-color: rgb(2, 133, 255);
+    background-color: #21304d;
 }
 
-.neon {
-    background-color: rgb(255, 217, 2);
+.sky {
+    background-color: #B3E5FC;
 }
 
-.pink {
-    background-color: rgb(233, 80, 156);
+.orange {
+    background-color: #FF8C42;
 }
 
 .green {
-    background-color: var(--success-email);
+    background-color: #6CB332;
 }
 
 @media ((max-width: 600px)){
