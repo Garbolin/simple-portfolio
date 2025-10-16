@@ -710,9 +710,10 @@ li {
 
 .form-loader-submit-container {
     display: flex;
-    flex-direction: row;      
+    flex-direction: column;      
     align-items: center;                  
     justify-content: flex-end;
+    gap: 20px;
     padding-top: 20px;
     width: 100%;
 }
@@ -728,6 +729,7 @@ li {
     padding: 5px 50px;
     margin: 0;
     border: none;
+    cursor: pointer;
 }
 /*---------------FOOTER------------------*/
 
@@ -820,5 +822,17 @@ li {
     100% {
         transform: scale(2.5);
         opacity: 0;
+    }
+}
+
+
+@media screen and (orientation: landscape) and (max-width: 600px){
+    .hero-container{
+        height: auto;
+    }
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto; /* Evita forzar 100vh */
     }
 }

@@ -20,7 +20,7 @@
     --hire-bg: #80df804d;
     /* email */
     --error-email: #f27272;
-    --success-email: #41d841;
+    --success-email: #009000;
     /* nnav colors */
     --cross: #ffffff;
     --nav-title: #ffffffc0;
@@ -33,20 +33,7 @@
 
 }
 
-/* WHITE LIGHTMODE 
-.lightmode{
-    --primary-color:#F3F2FF;
-    --secondary-color: #DEDBF4;
-    --btn-color: #3D3A5A;
-    --headers-text-color: #000000;
-    --text-color: #3D3A5A;
-    --btn-text-color: #ffffff; 
-    --shadow: rgba(132, 111, 157, 0.34);
-    --linkedin-color: #2965F1;
-    --github-color: #000000;
-    --unity-color: #000000;
-    --white: #ffffff;
-} */
+
 
 
 /* SAND LIGHTMODE */
@@ -82,41 +69,10 @@
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 
-/* PINK LIGHTMODE */
-.pinkmode {
-    --primary-color: #FFF9FB;
-    --secondary-color: #FFF0F5;
-    --btn-color: #D6336C;
-    --menu-btn-span: #D6336C;
-    --headers-text-color: #000000;
-    --text-color: #D6336C;
-    --btn-text-color: #ffffff; 
-    --shadow: rgba(214, 51, 108, 0.15); 
-    --linkedin-color: #2965F1;      
-    --github-color: #000000;        
-    --unity-color: #000000;         
-    --white: #ffffff;
-    --black: #000000;
-    --btn-hover: #E85C8C;
-    --date-color: var(--black);
-    /* hiering */
-    --hire-bg: #80df804d;
-    /* email */
-    --error-email: #c90000;         
-    --success-email: #00b600;       
-    /* nav colors */
-    --cross: #D6336C;               
-    --nav-title: #D6336Cda;         
-    --nav-mobile-line: #E85C8C33;
-    /* language selector */
-    --language-text: #D6336C;
-    --language-selected-bg: rgba(255, 255, 255, 0.9); /* fondo casi blanco */
-    --language-selected-svg-color: #D6336C;
-    --language-selected-text-color: var(--language-selected-svg-color);
-}
 
 
-.sky {
+/* SKY SUMMMER- YES */
+.sky { 
 /* fondos */
     --primary-color: #B3E5FC;       /* azul cielo claro */
     --secondary-color: #bfebff;     /* azul muy suave secundario */
@@ -166,6 +122,7 @@
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 
+/* ORANGE YES */
 .orangemode {
 /* fondos */
     --primary-color: #FFDAB3;       /* naranja muy claro de fondo */
@@ -215,55 +172,6 @@
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 
-
-.yellowmode {
-/* fondos */
-    --primary-color: #0D1B2A;       /* azul oscuro */
-    --secondary-color: #13293D;     /* azul más claro secundario */
-    
-    /* botones y acentos */
-    --btn-color: #FF8C42;           /* naranja brillante */
-    --btn-hover: #FF7A26;           /* hover naranja intenso */
-    
-    /* textos */
-    --headers-text-color: #33CCFF;  /* azul brillante para títulos */
-    --text-color: #FFFFFF;          /* texto blanco principal */
-    --btn-text-color: #0D1B2A;      /* texto oscuro en botones */
-    
-    /* sombras y glow */
-    --shadow: rgba(18, 18, 46, 0.4); /* sombra naranja translúcida */
-    
-    /* botones secundarios / highlights */
-    --highlight-color: #33CCFF;     /* azul para highlights */
-    
-    /* redes / iconos */
-    --linkedin-color: #0A66C2;
-    --github-color: #FFFFFF;
-    --unity-color: #FFFFFF;
-    
-    /* colores básicos */
-    --white: #FFFFFF;
-    --black: #0D1B2A;
-    
-    --date-color: #33CCFF;
-    --hire-bg: rgba(50, 205, 50, 0.2); /* mantengo verde suave */
-    
-    /* email */
-    --error-email: #FF5252;
-    --success-email: #00E676;
-    
-    /* nav colors */
-    --menu-btn-span: #33CCFF;
-    --cross: #FF8C42;
-    --nav-title: #33CCFFda;
-    --nav-mobile-line: #FF8C4233;
-    
-    /* language selector */
-    --language-text: #FF8C42;       /* naranja */
-    --language-selected-bg: rgba(255, 255, 255, 0.05);
-    --language-selected-svg-color: #33CCFF; /* azul */
-    --language-selected-text-color: var(--language-selected-svg-color);
-}
 
 /*YES*/
 .hibiscus {
@@ -368,5 +276,104 @@
     --language-text: #A8D0E6;        /* azul claro */
     --language-selected-bg: rgba(255, 255, 255, 0.05); /* translúcido suave */
     --language-selected-svg-color: #00CFFF;
+    --language-selected-text-color: var(--language-selected-svg-color);
+}
+
+
+/* WHITE LIGHTMODE 
+.lightmode{
+    --primary-color:#F3F2FF;
+    --secondary-color: #DEDBF4;
+    --btn-color: #3D3A5A;
+    --headers-text-color: #000000;
+    --text-color: #3D3A5A;
+    --btn-text-color: #ffffff; 
+    --shadow: rgba(132, 111, 157, 0.34);
+    --linkedin-color: #2965F1;
+    --github-color: #000000;
+    --unity-color: #000000;
+    --white: #ffffff;
+} */
+
+/* PINK LIGHTMODE -- NO */
+.pinkmode {
+    --primary-color: #FFF9FB;
+    --secondary-color: #FFF0F5;
+    --btn-color: #D6336C;
+    --menu-btn-span: #D6336C;
+    --headers-text-color: #000000;
+    --text-color: #D6336C;
+    --btn-text-color: #ffffff; 
+    --shadow: rgba(214, 51, 108, 0.15); 
+    --linkedin-color: #2965F1;      
+    --github-color: #000000;        
+    --unity-color: #000000;         
+    --white: #ffffff;
+    --black: #000000;
+    --btn-hover: #E85C8C;
+    --date-color: var(--black);
+    /* hiering */
+    --hire-bg: #80df804d;
+    /* email */
+    --error-email: #c90000;         
+    --success-email: #00b600;       
+    /* nav colors */
+    --cross: #D6336C;               
+    --nav-title: #D6336Cda;         
+    --nav-mobile-line: #E85C8C33;
+    /* language selector */
+    --language-text: #D6336C;
+    --language-selected-bg: rgba(255, 255, 255, 0.9); /* fondo casi blanco */
+    --language-selected-svg-color: #D6336C;
+    --language-selected-text-color: var(--language-selected-svg-color);
+}
+
+/* DARK BULUE-ORANGE NO */
+.blue-orangemode {
+/* fondos */
+    --primary-color: #0D1B2A;       /* azul oscuro */
+    --secondary-color: #13293D;     /* azul más claro secundario */
+    
+    /* botones y acentos */
+    --btn-color: #FF8C42;           /* naranja brillante */
+    --btn-hover: #FF7A26;           /* hover naranja intenso */
+    
+    /* textos */
+    --headers-text-color: #33CCFF;  /* azul brillante para títulos */
+    --text-color: #FFFFFF;          /* texto blanco principal */
+    --btn-text-color: #0D1B2A;      /* texto oscuro en botones */
+    
+    /* sombras y glow */
+    --shadow: rgba(18, 18, 46, 0.4); /* sombra naranja translúcida */
+    
+    /* botones secundarios / highlights */
+    --highlight-color: #33CCFF;     /* azul para highlights */
+    
+    /* redes / iconos */
+    --linkedin-color: #0A66C2;
+    --github-color: #FFFFFF;
+    --unity-color: #FFFFFF;
+    
+    /* colores básicos */
+    --white: #FFFFFF;
+    --black: #0D1B2A;
+    
+    --date-color: #33CCFF;
+    --hire-bg: rgba(50, 205, 50, 0.2); /* mantengo verde suave */
+    
+    /* email */
+    --error-email: #FF5252;
+    --success-email: #00E676;
+    
+    /* nav colors */
+    --menu-btn-span: #33CCFF;
+    --cross: #FF8C42;
+    --nav-title: #33CCFFda;
+    --nav-mobile-line: #FF8C4233;
+    
+    /* language selector */
+    --language-text: #FF8C42;       /* naranja */
+    --language-selected-bg: rgba(255, 255, 255, 0.05);
+    --language-selected-svg-color: #33CCFF; /* azul */
     --language-selected-text-color: var(--language-selected-svg-color);
 }

@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputSubject = document.querySelector("#subject");
     const inputMessage = document.querySelector("#message");
     const btnSubmit = document.querySelector("#submit");
+    const containerSubmit = document.querySelector(".form-loader-submit-container")
     const loader = document.querySelector("#loader");
     const form = document.querySelector("#form");
 
@@ -103,14 +104,14 @@ document.addEventListener("DOMContentLoaded", () => {
         // hello()
         sendedEmailAlert( "Email sended Succesfully! :)", true)
         setTimeout(() => {
-            btnSubmit.parentElement.querySelector("div p")?.parentElement.remove();
+            containerSubmit.querySelector("div p")?.parentElement.remove();
         }, 3000);
         
     } catch (error) {
         console.log('FAILED...', error);
         sendedEmailAlert( "Try again, an error ocurred trying to send the email! :(", false)
         setTimeout(() => {
-            btnSubmit.parentElement.querySelector("div p")?.parentElement.remove();
+            containerSubmit.querySelector("div p")?.parentElement.remove();
             console.log(btnSubmit.parentElement);
         }, 3000);
 
@@ -122,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function sendedEmailAlert( message, type) {
         const toastContainer = document.createElement("div");
         const toast = document.createElement("p");
-        const reference = btnSubmit.parentElement;
+        const reference = containerSubmit;
 
         toast.textContent = message;
         
