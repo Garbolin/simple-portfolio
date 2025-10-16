@@ -18,7 +18,7 @@
     --date: var(--white);
     /* hiering */
     --hire-bg: #80df804d;
-    --hire-color: #00b600;
+    --hire-color: #0ad90a;
     /* email */
     --error-email: #f27272;
     --success-email: #009000;
@@ -74,7 +74,7 @@
 
 
 /* SKY SUMMMER- YES */
-.sky { 
+.summer { 
 /* fondos */
     --primary-color: #B3E5FC;       /* azul cielo claro */
     --secondary-color: #bfebff;     /* azul muy suave secundario */
