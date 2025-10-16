@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
+    top: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .test-navbar {
@@ -10,12 +15,14 @@
     border-radius: 50%;
     background-color: var(--secondary-color);
     position:fixed;
+    top: 20px;
     left: 50px;
     display: flex;
     flex-direction:column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    flex-shrink: 0;
     z-index: 200;
 }
 
@@ -190,7 +197,6 @@
     padding: 10px;
     width: 100%;
     flex-wrap: wrap;
-    
 }
 
 .theme-button {

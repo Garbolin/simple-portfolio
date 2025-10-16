@@ -96,7 +96,7 @@ function themeSelected(theme, themeNewSelected){
             document.body.classList.add('blue-night');
             break;
         case "sky":
-            document.body.classList.add('sky');
+            document.body.classList.add('summer');
             break;
         case "orange":
             document.body.classList.add('orangemode');
