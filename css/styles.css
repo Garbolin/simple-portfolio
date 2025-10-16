@@ -456,12 +456,12 @@ li {
 .proyecto-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
     width: 100%;
-    border-radius: 10px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 0;
     background-color: var(--secondary-color);
+    overflow: hidden; /* 🔥 esto hace que la imagen respete los bordes redondeados */
 }
 
 
@@ -475,15 +475,20 @@ li {
     transition: all 0.3s ease-in-out;
 }
 
+.proyecto-section-container-image {
+    flex: 1; /* Toma todo el espacio disponible a la derecha */
+    display: flex;
+    align-items: stretch; /* Para que el hijo crezca en vertical */
+    justify-content: center;
+    height: 100%;
+}
+
 .project-image {
-    height: auto;
-    width: 80%; /* Fallback for older browsers */
-    height: 80%; /* Fallback for older browsers */
-    aspect-ratio: 1;
-    transition: all 0.3s ease-in-out;
-    align-self: center;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
+
 
 .link {
     z-index: 1;
@@ -500,26 +505,16 @@ li {
     fill: var(--black)
 }
 
-.project-image-link-container:hover .link {
-    scale: calc(1.2);
-    opacity: 1;
-}
-
-.project-image:hover{
-    scale: calc(1.1);
-    filter: blur(1px);
-    opacity: 0.5;
-}
-
 .project-section-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    max-width: 90%;
+    max-width: 70%;
     font-size: 0.9rem;
     padding: 20px;
+    padding-bottom: 0;
     box-sizing: border-box;
 }
 
