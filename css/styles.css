@@ -330,6 +330,7 @@ html {
     width: 100%;
     border-radius: 10px;
     background-color: var(--secondary-color);
+    box-shadow: -4px 4px 0px var(--shadow);
     padding: 20px;
     box-sizing: border-box;
 }
@@ -368,18 +369,44 @@ html {
     width: 100%;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .experience-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     gap: 20px;
     width: 100%;
     border-radius: 10px;
+    padding: 0;
+    box-shadow: -4px 4px 0px var(--shadow);
     background-color: var(--secondary-color);
+}
+
+.experience-container-with-image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    padding: 0;
+    box-shadow: -4px 4px 0px var(--shadow);
+    background-color: var(--secondary-color);
+    overflow: hidden; /* 🔥 esto hace que la imagen respete los bordes redondeados */
+}
+
+.experience-section-info-with-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 70%;
+    font-size: 0.9rem;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .experience-section-info {
@@ -451,8 +478,9 @@ li {
     flex-direction: row;
     width: 100%;
     height: auto; 
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 0;
+    box-shadow: -4px 4px 0px var(--shadow);
     background-color: var(--secondary-color);
     overflow: hidden; /* 🔥 esto hace que la imagen respete los bordes redondeados */
 }
@@ -473,6 +501,7 @@ li {
     display: flex;
     align-items: stretch; /* Para que el hijo crezca en vertical */
     justify-content: center;
+    overflow: hidden;
     /* height: 100%; */
 }
 
@@ -481,9 +510,12 @@ width: 100%;
     height: auto;
     aspect-ratio: 16 / 9; /* Ajusta proporción visual */
     object-fit: cover;
+    transition:all 0.2s ease-in-out;
 }
 
-
+.project-image:hover {
+    transform: scale(1.15) rotate(2deg);
+}
 .link {
     z-index: 1;
     position: absolute;
@@ -517,6 +549,9 @@ width: 100%;
     flex-direction: column;
     gap: 5px;
 }
+
+
+/* TECH LABELS */
 
 .tech-label-content {
     display: flex;
@@ -559,6 +594,7 @@ width: 100%;
     margin-top: 20px;
     padding: 10px 30px 50px 30px;
     border-radius: 10px;
+    box-shadow: -4px 4px 0px var(--shadow);
     background-color: var(--secondary-color);
     box-sizing:border-box;
 }
@@ -663,6 +699,7 @@ width: 100%;
     gap: 20px;
     width: 100%;
     border-radius: 10px;
+    box-shadow: -4px 4px 0px var(--shadow);
     background-color: var(--secondary-color);
 }
 
@@ -815,12 +852,16 @@ width: 100%;
 }
 
 @media ((max-width: 600px)){
-    .proyecto-container {
+    .proyecto-container, .experience-container-with-image {
         flex-direction: column-reverse;
     }
     .project-section-info{
         max-width:100%;
     }
+    .experience-section-info-with-image{
+        max-width:100%;
+    }
+
 }
 
 /* @media screen and (orientation: landscape) and (max-width: 600px){
