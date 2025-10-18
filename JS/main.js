@@ -1,8 +1,9 @@
 
-
-document.addEventListener("DOMContentLoaded", () => {
-    loadLanguage('es');
-})
+window.onload = function() {
+    setTimeout(function() {
+        window.scrollTo(0, 0);
+    }, 50);
+};
 
 const sections = document.querySelectorAll('section');
 const header = document.querySelectorAll('header');
@@ -21,14 +22,4 @@ const home = document.querySelectorAll('#home');
     sections.forEach(section => {
     section.style.animationPlayState = 'paused';
     observer.observe(section);
-    });
-
-    header.forEach(header => {
-    header.style.animationPlayState = 'paused';
-    observer.observe(header);  // Corregido: observar cada div individualmente
-    });
-
-    home.forEach(home => {
-    home.style.animationPlayState = 'paused';
-    observer.observe(home);  // Corregido: observar cada div individualmente
     });
