@@ -916,6 +916,14 @@ width: 100%;
 
 }
 
+
+@media ((max-width: 380px)){
+    .header-profession {
+        font-size: 1.8rem;
+    }
+
+}
+
 /* @media screen and (orientation: landscape) and (max-width: 600px){
 
     section {
