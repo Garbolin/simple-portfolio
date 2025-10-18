@@ -38,7 +38,7 @@ section {
     animation-play-state: paused;
 }
 
-#home, header {
+#home, header, body {
     opacity: 0;
     animation: fadeIn 1s ease forwards; 
     animation-delay: 0.3s; 
