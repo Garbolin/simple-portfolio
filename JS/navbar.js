@@ -148,6 +148,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Restablecer tema guardado
     const storedTheme = localStorage.getItem('theme') || 'dark';
     themeSelected(storedTheme);
+    document.querySelector("." + storedTheme)?.classList.add("theme-button-selected");
 
     // Restablecer idioma guardado
     const storedLanguage = localStorage.getItem('language') || 'spanish';
@@ -167,12 +168,14 @@ function menuEvents(e) {
         if (e.target.closest("#spanish")) {
             localStorage.setItem('language', 'spanish');
             loadLanguage('es');
+            refreshVisibleErrors();
             applyLanguageStyles('spanish');
             return;
         } 
         else if (e.target.closest("#english")) {
             localStorage.setItem('language', 'english');
             loadLanguage('en');
+            refreshVisibleErrors();
             applyLanguageStyles('english');
             return;
         } 
@@ -235,10 +238,11 @@ function themeSelected(theme) {
 
     // Guardar sólo el nombre lógico del tema, no la clase CSS
     localStorage.setItem('theme', theme);
+    
 }
 
 // Aplicar estilos de idioma
-function applyLanguageStyles(language) {
+function  applyLanguageStyles(language) {
     if (language === 'spanish') {
         spanish.classList.add("language-selected", "language-container-selected");
         spanish.classList.remove("language-container");
@@ -254,4 +258,12 @@ function applyLanguageStyles(language) {
         spanish.classList.add("language-container");
         spanishSVG.setAttribute("fill", "var(--language-text)");
     }
+}
+
+// Función refresh
+function refreshVisibleErrors() {
+    document.querySelectorAll('.error-email[data-i18n-key]').forEach(el => {
+        const key = el.getAttribute('data-i18n-key');
+        el.textContent = getTranslation(key);
+    });
 }

@@ -727,6 +727,7 @@ width: 100%;
 
 .textarea {
     width: calc(100% - 21px);
+    resize: vertical;
 }
 
 .form-label {
@@ -757,6 +758,7 @@ width: 100%;
     border: none;
     cursor: pointer;
 }
+
 /*---------------FOOTER------------------*/
 
 

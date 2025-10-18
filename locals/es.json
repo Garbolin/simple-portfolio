@@ -20,6 +20,7 @@
         "submit": "Enviar",
         "seeProject": "Ver proyecto!"
     },
+    "hire": "Disponible para trabajar",
     "about": {
         "title": "Sobre mí",
         "text": [
@@ -88,5 +89,14 @@
         "email": "Email",
         "subject": "Asunto",
         "message": "Mensaje"
+    },
+    "alert": {
+        "emptyFields": "Por favor, completa todos los campos",
+        "invalidEmail": "Escriba un correo válido",
+        "emptyField": "Este campo es obligatorio."
+    },
+    "toast": {
+        "emailSuccess": "¡Correo enviado correctamente! :)",
+        "emailError": "Inténtalo de nuevo, ocurrió un error al enviar el correo. :("
     }
 }
