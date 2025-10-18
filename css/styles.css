@@ -870,7 +870,7 @@ width: 100%;
 @keyframes fadeSlideUp {
     from {
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(30px);
     }
     to {
         opacity: 1;
