@@ -77,7 +77,7 @@
 .summer { 
 /* fondos */
     --primary-color: #B3E5FC;       /* azul cielo claro */
-    --secondary-color: #bfebff;     /* azul muy suave secundario */
+    --secondary-color: #ddf1fa;     /* azul muy suave secundario */
     
     /* botones y acentos */
     --btn-color: #32CD32;           /* verde brillante */
@@ -180,8 +180,8 @@
 /*YES*/
 .hibiscus {
 /* fondos */
-    --primary-color: #ddf0da;        /* fondo verde muy claro, casi blanco */
-    --secondary-color: #E4F6E1;      /* verde pastel para secciones */
+    --primary-color: #c8f3c1;        /* fondo verde muy claro, casi blanco */
+    --secondary-color: #eefde6;      /* verde pastel para secciones */
     
     /* botones y acentos */
     --btn-color: #6CB332;            /* verde lima natural */
@@ -216,19 +216,19 @@
 
     
     /* email */
-    --error-email: #D94C6F;          /* rosa rojizo */
+    --error-email: #d6153c;          /* rosa rojizo */
     --success-email: #4CAF50;        /* verde éxito natural */
     
     /* nav colors */
     --menu-btn-span: #D9647C;
-    --cross: #D9647C;
-    --nav-title: #D9647Cda;
+    --cross: #d6153c;
+    --nav-title: #d6153c;
     --nav-mobile-line: #D9647C33;    /* línea rosada translúcida */
     
     /* language selector */
     --language-text: #3E5C1C;        /* verde oscuro elegante */
-    --language-selected-bg: rgba(255, 255, 255, 0.85);
-    --language-selected-svg-color: #D9647C;
+    --language-selected-bg: #3E5C1C;
+    --language-selected-svg-color: rgb(255, 255, 255);
     --language-selected-text-color: var(--language-selected-svg-color);
 }
 

@@ -41,7 +41,7 @@
                     <!-- THEMES -->
                     <p class="nav-mobile-title" data-i18n-key="menu.theme"></p>
                     <div id="#themes" class="themes-container">
-                        <div class="theme-button dark theme-button-selected"></div>
+                        <div class="theme-button dark"></div>
                         <div class="theme-button light"></div>
                         <div class="theme-button blue"></div>
                         <div class="theme-button sky"></div>
@@ -87,7 +87,7 @@
                 <p class="header-profession">Frontend Developer</p>
                 <div class="header-hire-container">
                     <div class="header-hire-light"><div class="header-hire-light-animation" ></div></div>
-                    <p class="header-hire-p">Open for work</p>
+                    <p class="header-hire-p" data-i18n-key="hire"></p>
                 </div>
             </div>
             <div class="btn-hero-container">
@@ -132,8 +132,8 @@
                     </div>
                 </section>
                 <!-- PEREZ MOLINA -->
-                <section class="experience-container">                    
-                    <div class="experience-section-info">
+                <section class="experience-container-with-image">                    
+                    <div class="experience-section-info-with-image">
                         <ul class="proyectos-content-container experiencia-content-container">
                             <h3 class="content-title" data-i18n-key="experience.section.1.jobTitle"></h3>
                             <li class="date" data-i18n-key="experience.section.1.date"></li>
@@ -158,6 +158,16 @@
                             ></a>
                         </div>
                     </div>
+
+                        <a      
+                                class="proyecto-section-container-image"
+                                data-href-key="experience.section.1.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                        <img class="project-image" src="Assets\images\perezMolina.png" alt="">
+                    </a>
+                    
                 </section>
             </div>
         </section>
@@ -194,9 +204,14 @@
                         </a>
                         </div>
                     </div>
-                    <div class="proyecto-section-container-image">
-                <img class="project-image" src="Assets\images\piscina.png" alt="">
-                    </div>
+                    <a      
+                                class="proyecto-section-container-image"
+                                data-href-key="projects.section.0.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                        <img class="project-image" src="Assets\images\budgetApp.png" alt="">
+                </a>
                 </section>
                 <!-- ARKANOID -->
                 <section class="proyecto-container">
@@ -228,9 +243,14 @@
                             </a>
                         </div>
                     </div>
-                    <div class="proyecto-section-container-image">
-                        <img class="project-image" src="Assets\images\piscina.png" alt="">
-                    </div>
+                    <a      
+                                class="proyecto-section-container-image"
+                                data-href-key="projects.section.1.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                        <img class="project-image" src="Assets\images\arkanoid.png" alt="">
+                </a>
                 </section>
                 <!-- TASK TIMER -->
                 <section class="proyecto-container">
@@ -262,9 +282,14 @@
                             </a>
                         </div>
                     </div>
-                    <div class="proyecto-section-container-image">
-                        <img class="project-image" src="Assets\images\piscina.png" alt="">
-                    </div>
+                    <a      
+                                class="proyecto-section-container-image"
+                                data-href-key="projects.section.2.link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                        <img class="project-image" src="Assets\images\taskTime.png" alt="">
+                </a>
                 </section>
             </div>
         </section>
@@ -356,24 +381,30 @@
                         <div class="form-item-container">
                             <label class="form-label" for="name" data-i18n-key="contact.name"></label>
                             <input class="input-item" type="text" name="name" id="name"  data-i18n-key="contact.name" placeholder="Nombre" required>
+                            <p class="error-email hidden" data-error-type="empty" data-i18n-key="alert.emptyField"></p>
                         </div>
                         <div class="form-item-container">
                             <label class="form-label" for="email" data-i18n-key="contact.email"></label>
                             <input class="input-item" type="email" name="email" id="email" data-i18n-key="contact.email" placeholder="Email" required>
+                            <p class="error-email hidden" data-error-type="empty" data-i18n-key="alert.emptyField"></p>
+                            <p class="error-email hidden" data-error-type="invalid" data-i18n-key="alert.invalidEmail"></p>
                         </div>
                         <div class="form-item-container">
                             <label class="form-label" for="subject" data-i18n-key="contact.subject"></label>
                             <input class="input-item" type="text" name="subject" id="subject" data-i18n-key="contact.subject" placeholder="Asunto" required>
+                            <p class="error-email hidden" data-error-type="empty" data-i18n-key="alert.emptyField"></p>
                         </div>
                         <div class="form-item-container">
                             <label class="form-label" for="message" data-i18n-key="contact.message"></label>    
-                            <textarea class="input-item" name="message" id="message" rows="4" data-i18n-key="contact.message" placeholder="Mensaje" required></textarea>
+                            <textarea class="input-item textarea" name="message" id="message" rows="4" data-i18n-key="contact.message" placeholder="Mensaje" required></textarea>
+                            <p class="error-email hidden" data-error-type="empty" data-i18n-key="alert.emptyField"></p>
                         </div>
                         <div class="form-loader-submit-container">
                             <input id="submit" class="btn submit btn-hover" type="submit" data-i18n-key="textBtn.submit" value="Enviar" >
                             <div class="form-loader-container">
                                 <span id="loader" class="loader hidden-loader"></span>
                             </div>
+                            <p class="error-email hidden" id="form-empty" data-error-type="empty" data-i18n-key="alert.emptyFields"></p>
                         </div>
                     </form>
                 </div>
@@ -406,9 +437,8 @@
     <script type="text/javascript" src="JS/main.js" defer></script>
     <script type="text/javascript" src="JS/mobile.js" defer></script>
     <script type="text/javascript" src="JS/locals.js" defer></script>
-    <script type="text/javascript" src="JS/lightmode.js" defer></script>
-    <script type="text/javascript" src="JS/navbar.js" defer></script>
     <script type="text/javascript" src="JS/email.js" defer></script>
+    <script type="text/javascript" src="JS/navbar.js" defer></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"> </script> 
     <script type="text/javascript"> (function(){ emailjs.init({ publicKey: "fhQmImEIcca1vRBQj", }); })(); </script>
 </body>

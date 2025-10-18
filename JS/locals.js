@@ -1,9 +1,12 @@
 
+let translations = {};
+
 function loadLanguage(lang) {
     fetch(`./locals/${lang}.json`)
         .then(response => response.json())
         .then(langData => {
         translatePage(langData);
+        translations = langData;
         })
         .catch(error => console.error("Error cargando idioma:", error));
 }
@@ -43,3 +46,16 @@ function translatePage(langData) {
             element.href = text;
     })
 )}
+
+function getTranslation(key) {
+    const parts = key.split(".");
+    let text = translations;
+    for (const part of parts) {
+        if (text[part]) {
+            text = text[part];
+        } else {
+            return key; // valor de respaldo si no se encuentra
+        }
+    }
+    return text;
+}

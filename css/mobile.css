@@ -84,6 +84,8 @@
     opacity: 0;
     overflow-x: hidden;
     list-style-type: none;
+    height: 100vh;
+    background: var(--secondary-color);
     -webkit-font-smoothing: antialiased;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.5s;
 }
@@ -93,8 +95,13 @@
     padding: 50px;
     padding-top: 90px;
     background: var(--secondary-color);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
     border-radius: 5px;
-    height: 100vh;
+    height:auto;
+    overflow-y: auto;           /* Activa scroll vertical solo si el contenido desborda */
+    -webkit-overflow-scrolling: touch;
+    
 }
 
 .show-navBar {

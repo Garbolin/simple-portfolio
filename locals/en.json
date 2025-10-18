@@ -20,6 +20,7 @@
         "submit": "Submit",
         "seeProject": "See project!"
     },
+    "hire": "Open to work",
     "about": {
         "title": "About",
         "text": [
@@ -87,5 +88,14 @@
         "email": "Email",
         "subject": "Subject",
         "message": "Message"
+    },
+    "alert": {
+        "emptyFields": "Please fill in all the fields.",
+        "invalidEmail": "Invalid email address.",
+        "emptyField": "This field is required."
+    },
+    "toast": {
+        "emailSuccess": "Email sent successfully!",
+        "emailError": "The email could not be sent. Please try again."
     }
 }
