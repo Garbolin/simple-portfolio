@@ -32,6 +32,18 @@ html {
     
 }
 
+section {
+    opacity: 0;
+    animation: fadeSlideUp 0.8s ease forwards;
+    animation-play-state: paused;
+}
+
+#home, header {
+    opacity: 0;
+    animation: fadeIn 1s ease forwards; 
+    animation-delay: 0.3s; 
+}
+
 /*---NAVBAR---*/
 #home {
     scroll-margin: auto;
@@ -703,7 +715,6 @@ width: 100%;
     background-color: var(--secondary-color);
 }
 
-
 .form-item-container {
     display: flex;
     flex-direction: column;
@@ -836,6 +847,45 @@ width: 100%;
     border-radius: 10px;
 }
 
+
+/* El scroll completo */
+::-webkit-scrollbar {
+  width: 10px; /* ancho del scroll vertical */
+}
+
+/* El "track" (fondo del scroll) */
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* color de fondo */
+  border-radius: 10px;
+}
+
+/* El "thumb" (la barra que se mueve) */
+::-webkit-scrollbar-thumb {
+  background-color: #e5e3e377; /* color del scroll */
+  border-radius: 10px;
+  border: 2px solid #1a1a1a; /* hace que parezca flotante */
+}
+
+
+@keyframes fadeSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /* PING */
 
 @keyframes ping {
