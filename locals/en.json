@@ -24,9 +24,11 @@
     "about": {
         "title": "About",
         "text": [
-            "I am passionate about combining technology and creativity to transform ideas into purposeful digital experiences. With a background in Psychology, I am driven by curiosity and a constant quest to find new ways to connect with people through design and interaction.",
-            "I am optimistic, adaptable, and enjoy collaborating in teams to shape projects where aesthetics, functionality, and usability are in balance. I believe that attention to detail defines the quality of a digital experience, turning functional solutions into something intuitive and enjoyable to use."        ]
-    },
+            "Hello, I'm Gabriela! I'm passionate about combining technology and creativity to craft purposeful digital experiences. With a background in psychology, I'm driven by curiosity and the desire to connect with people through design and interaction.",
+            "I'm optimistic, flexible, and enjoy working with teams to create projects that balance aesthetics, functionality, and usability.",        
+            "Let's talk!"
+            ]
+        },
     "experience": {
         "title": "Experience",
         "section": [

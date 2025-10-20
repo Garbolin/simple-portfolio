@@ -180,8 +180,8 @@
 /*YES*/
 .hibiscus {
 /* fondos */
-    --primary-color: #c8f3c1;        /* fondo verde muy claro, casi blanco */
-    --secondary-color: #eefde6;      /* verde pastel para secciones */
+    --primary-color: #e5ffba;        /* fondo verde muy claro, casi blanco */
+    --secondary-color: #f5ffe6;      /* verde pastel para secciones */
     
     /* botones y acentos */
     --btn-color: #6CB332;            /* verde lima natural */
@@ -211,8 +211,8 @@
     --date-color: #d6153c;           /* rosado cálido para fechas o detalles */
     
     /* hiring */
-    --hire-bg: rgba(210, 255, 215, 0.45); /* verde claro translúcido */
-    --hire-color: #4CAF50;
+    --hire-bg:  rgba(63, 126, 12, 0.11); /* verde claro translúcido */
+    --hire-color: #50a80c;
 
     
     /* email */
