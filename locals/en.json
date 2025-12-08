@@ -34,7 +34,7 @@
         "section": [
             {
                 "date": "2024 - 2025",
-                "jobTitle": "BrainGaze - Software developer Intern",
+                "jobTitle": "BrainGaze - Software developer",
                 "text": [
                     "Developed a mobile application featuring a video game using Unity and C#.",
                     "Designed UX/UI and created assets and interfaces.",
@@ -81,6 +81,15 @@
                 ],
                 "link" : "https://task-timer-gb.netlify.app/",
                 "github" : "https://github.com/Garbolin/Task-Timer?tab=readme-ov-file"
+            },
+            {
+                "projectTitle": "House Plants App",
+                "text":[
+                    "House Plants App developed with Vite, React and Typescript.",
+                    "Indoor-friendly plant catalog with API integration, favorite plants saved in LocalStorage in the My House Garden page, individual plant pages with care info and descriptions, search plants by name, and toast notifications."
+                ],
+                "link" : "https://house-plants-app.netlify.app/",
+                "github" : "https://github.com/Garbolin/HousePlantsApp"
             }
         ]
     },
