@@ -85,7 +85,7 @@
             {
                 "projectTitle": "House Plants App",
                 "text":[
-                    "House Plants App developed with React and Typescript.",
+                    "House Plants App developed with Vite, React and Typescript.",
                     "Indoor-friendly plant catalog with API integration, favorite plants saved in LocalStorage in the My House Garden page, individual plant pages with care info and descriptions, search plants by name, and toast notifications."
                 ],
                 "link" : "https://house-plants-app.netlify.app/",
